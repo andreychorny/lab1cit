@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Controller">
+   <children>
+      <AnchorPane layoutY="-7.0" prefHeight="469.0" prefWidth="974.0">
+         <children>
+            <TextArea fx:id="inputFile" layoutX="26.0" layoutY="26.0" prefHeight="50.0" prefWidth="429.0" />
+            <GridPane alignment="CENTER" layoutX="26.0" layoutY="150.0" prefHeight="305.0" prefWidth="922.0">
+              <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="144.0" minWidth="10.0" prefWidth="135.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="10.0" prefWidth="105.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="105.0" minWidth="10.0" prefWidth="105.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="160.0" minWidth="10.0" prefWidth="135.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="157.0" minWidth="10.0" prefWidth="101.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="224.0" minWidth="10.0" prefWidth="152.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="169.0" minWidth="10.0" prefWidth="90.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="134.0" minWidth="10.0" prefWidth="103.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="191.0" minHeight="10.0" prefHeight="75.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="176.0" minHeight="10.0" prefHeight="73.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="138.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextArea prefHeight="62.0" prefWidth="109.0" text="Можливі альтернативні рішення" wrapText="true" />
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="Продовжити роботу в звичному режимі" wrapText="true" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="Активувати рекламну діяльність" wrapText="true" GridPane.rowIndex="2" />
+                  <TextArea prefHeight="96.0" prefWidth="134.0" text="Активувати рекламу та знизити ціну" wrapText="true" GridPane.rowIndex="3" />
+                  <TextArea prefHeight="84.0" prefWidth="112.0" text="Конкуренція на тому ж рівні" wrapText="true" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="gr11" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr21" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr31" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea prefHeight="89.0" prefWidth="98.0" text="Конкуренція трішки посилилась" wrapText="true" GridPane.columnIndex="2">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="gr12" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr22" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr32" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="Конкуренція різко посилилась" wrapText="true" GridPane.columnIndex="3">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="gr13" prefHeight="200.0" prefWidth="200.0" wrapText="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <rotationAxis>
+                        <Point3D />
+                     </rotationAxis>
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr23" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr33" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="3" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="Вальда" GridPane.columnIndex="4">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="gr14" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr24" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr34" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="4" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea prefHeight="79.0" prefWidth="156.0" text="Байеса-Лапласа" wrapText="true" GridPane.columnIndex="5">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="gr15" prefHeight="77.0" prefWidth="141.0" GridPane.columnIndex="5" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr25" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr35" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="5" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea prefHeight="84.0" prefWidth="175.0" text="Гурвіца" GridPane.columnIndex="6">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea prefHeight="200.0" prefWidth="200.0" text="Лапласа" GridPane.columnIndex="7">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="gr16" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr17" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="22.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr26" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr37" prefHeight="145.0" prefWidth="102.0" GridPane.columnIndex="7" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="22.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr27" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="7" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="22.0" />
+                     </font></TextArea>
+                  <TextArea fx:id="gr36" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="6" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="24.0" />
+                     </font></TextArea>
+               </children>
+            </GridPane>
+            <Button fx:id="doEverything" layoutX="738.0" layoutY="26.0" mnemonicParsing="false" onAction="#onClickMethod" prefHeight="45.0" prefWidth="190.0" text="Виконати">
+               <font>
+                  <Font size="23.0" />
+               </font></Button>
+            <Button layoutX="520.0" layoutY="26.0" mnemonicParsing="false" onAction="#ReadFile" prefHeight="50.0" prefWidth="190.0" text="Відкрити файл">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Button>
+            <Label layoutX="158.0" layoutY="84.0" prefHeight="63.0" prefWidth="330.0" text="Можливі стани зовнішнього середовища:" wrapText="true">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="504.0" layoutY="100.0" text="Критерії:">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
